@@ -62,7 +62,7 @@ public class ArrayEx6
     // ***** output *****
 
         for(int i = 0; i < MAXLIST; i++){
-            System.out.print(list[i] + "\n");
+            System.out.println(i + "\t" + list[i]);
         }//end output for loop
 
         System.out.println("\nFirst 5 Numbers");
