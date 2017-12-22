@@ -42,9 +42,9 @@ public class ArrayEx6
     // ***** Print Banner *****
 
         System.out.println("**********************************");
-        System.out.println("NAME:        Your Name Here");
+        System.out.println("NAME:        Ma. Pauline Sadaya");
         System.out.println("Class:       CS30S");
-        System.out.println("Assignment:  Ax Qy");
+        System.out.println("Assignment:  ArrayEx6");
         System.out.println("**********************************");
 
     // ***** get input *****
@@ -65,9 +65,19 @@ public class ArrayEx6
             System.out.print(list[i] + "\n");
         }//end output for loop
 
+        System.out.println("\nFirst 5 Numbers");
+        for(int i = 0; i < five; i++){      
+            System.out.println(list[i]); 
+        }//end output for loop
+        
+        System.out.println("\nLast 5 Numbers");
+        for(int i = MAXLIST-five; i < MAXLIST; i++){
+            System.out.println(list[i]);
+        }//end output for loop
+        
     // ***** closing message *****
 
-        System.out.println("end of processing");
+        System.out.println("\nend of processing");
 
 	}  // end main	
 }  // end class
